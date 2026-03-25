@@ -71,7 +71,8 @@ DDPM Reconstruction  VS  Ground truth
 - Python 3.8+
 - PyTorch
 - [CMRxRecon](https://cmrxrecon.github.io/) validation data correctely preprocessed or slice example (provided here)
-- Pretrained DDPM checkpoint (provided separately)
+- Pretrained DDPM checkpoint (downloaded from dropbox in the notebook)
+
 
 ---
 
