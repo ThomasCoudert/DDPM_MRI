@@ -50,16 +50,17 @@ DDPM Reconstruction  VS  Ground truth
 
 | Section | Description |
 |---|---|
-| 0 — Imports & Paths | Setup |
-| 1 — Visualise Ground Truth | RSS coil combination, log-scale k-space display |
-| 2 — Undersampling Strategy | Choose Cartesian / Radial / Poisson mask |
-| 3 — Load Pretrained DDPM | Load model weights |
-| 3b — Noise Schedule | Visualise the cosine beta schedule |
-| 4 — Run Reconstruction | Full reverse diffusion chain (`dc_mode='none'` or `'hard'`) |
-| 5 — Results | Side-by-side comparison: GT / zero-filled / DDPM |
-| 6 — Hard DC | Enforce k-space data consistency at every denoising step |
-| 6b — Denoising Trajectory | Watch the image emerge from noise (workshop demo) |
-| 7 — Summary | Take-home messages |
+| 0 — Imports & Paths | Setup, paths, model hyper-parameters |
+| 1 — Download the Pretrained Model | Auto-download checkpoint from Dropbox (~400 MB) |
+| 2 — Load the Example Slice | Load provided cardiac k-space slice + RSS ground truth visualisation |
+| 3 — Choose an Undersampling Strategy | Select Cartesian / Radial / Poisson mask and acceleration factor |
+| 4 — Load the Pretrained DDPM | Build UNet, load checkpoint weights |
+| 5 — Visualise the Noise Schedule | Cosine beta schedule: signal & noise mixing coefficients |
+| 6 — Run the Diffusion Reconstruction | Full reverse diffusion chain (`dc_mode='none'`) |
+| 6b — Results | Side-by-side comparison: GT / zero-filled / DDPM + error maps + PSNR/NMSE |
+| 7 — Hard K-space Data Consistency | Enforce measured k-space at every denoising step (`dc_mode='hard'`) |
+| 8 — Visualise the Denoising Trajectory | Watch the image emerge from noise (workshop demo) |
+| 9 — Summary | Take-home messages |
 
 ---
 
