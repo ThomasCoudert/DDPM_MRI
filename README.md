@@ -21,7 +21,7 @@ This notebook shows how a **conditioned DDPM** trained on the [CMRxRecon](https:
 
 ---
 ## Workflow
-
+```
 Fully-sampled k-space from val set 
        │
        │  ← apply undersampling mask  (Cartesian / Radial / Poisson)
@@ -31,7 +31,7 @@ Undersampled k-space  →  Zero-filled reconstructed image  (aliased, blurry)
        │  ← reverse DDPM sampling (500 steps) with/w.o Data Consistency
        ▼
 DDPM Reconstruction  VS  Ground truth
-
+```
 ---
 
 ## Key Concepts
