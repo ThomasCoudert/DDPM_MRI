@@ -51,16 +51,15 @@ DDPM Reconstruction  VS  Ground truth
 | Section | Description |
 |---|---|
 | 0 — Imports & Paths | Setup |
-| 1 — Select Subject | Pick a validation subject from CMRxRecon |
-| 2 — Visualise Ground Truth | RSS coil combination, log-scale k-space display |
-| 3 — Undersampling Strategy | Choose Cartesian / Radial / Poisson mask |
-| 4 — Load Pretrained DDPM | Load model weights |
-| 5 — Noise Schedule | Visualise the cosine beta schedule |
-| 6 — Run Reconstruction | Full reverse diffusion chain (`dc_mode='none'` or `'hard'`) |
-| 7 — Results | Side-by-side comparison: GT / zero-filled / DDPM |
-| 7b — Hard DC | Enforce k-space data consistency at every denoising step |
-| 8 — Denoising Trajectory | Watch the image emerge from noise (workshop demo) |
-| 10 — Summary | Take-home messages |
+| 1 — Visualise Ground Truth | RSS coil combination, log-scale k-space display |
+| 2 — Undersampling Strategy | Choose Cartesian / Radial / Poisson mask |
+| 3 — Load Pretrained DDPM | Load model weights |
+| 3b — Noise Schedule | Visualise the cosine beta schedule |
+| 4 — Run Reconstruction | Full reverse diffusion chain (`dc_mode='none'` or `'hard'`) |
+| 5 — Results | Side-by-side comparison: GT / zero-filled / DDPM |
+| 6 — Hard DC | Enforce k-space data consistency at every denoising step |
+| 6b — Denoising Trajectory | Watch the image emerge from noise (workshop demo) |
+| 7 — Summary | Take-home messages |
 
 ---
 
