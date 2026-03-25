@@ -4,9 +4,10 @@ A practical tutorial demonstrating score-based diffusion models (DDPM) for accel
 
 # MRI Reconstruction with Diffusion Models
 
-A hands-on workshop notebook demonstrating **accelerated MRI reconstruction** using a Denoising Diffusion Probabilistic Model (DDPM).
+A hands-on workshop notebook demonstrating **accelerated MRI reconstruction** using a Denoising Diffusion Probabilistic Model (DDPM). Notebook used in the context of the IDRE-ECR workshop: https://idre.ucla.edu/calendar-event/physic-informed-diffusion-models-for-medical-imaging 
 
-> Authors: Thomas Coudert, Amit Rand, Zhengyang Ming  
+> Author: Thomas Coudert
+> Collaborators: Amit Rand, Zhengyang Ming  
 > IDRE Workshop
 
 ---
