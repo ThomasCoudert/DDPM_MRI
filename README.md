@@ -15,8 +15,6 @@ A hands-on workshop notebook demonstrating **accelerated MRI reconstruction** us
 
 ## Overview
 
-In clinical MRI, scan time is precious. Acquiring a fully-sampled k-space can take minutes — time patients may not be able to hold still, and time that limits scanner throughput. A common workaround is **undersampling**: acquire only a fraction of k-space measurements, then use a reconstruction algorithm to recover the full image.
-
 This notebook shows how a **conditioned DDPM** trained on the [CMRxRecon](https://cmrxrecon.github.io/) cardiac MRI dataset can reconstruct high-quality images from undersampled k-space, with optional **hard k-space data consistency (DC)** enforcement.
 
 **The pretrained model can be load directly via the notebook cell.**
